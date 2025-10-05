@@ -8,13 +8,20 @@ export const CardProjeto: React.FC<Project> =
   const { t } = useTranslation();
 
   return (
-    <Card className="shadow-sm bg-white dark:bg-gray-800 border-0 transition">
-      <CardBody>
-        <CardTitle tag="h5" className="text-dark dark:text-white">{project.name}</CardTitle>
-        <CardText className="text-muted dark:text-gray-300">
-          {project.description}
-        </CardText>
-        <div className="d-flex gap-3">
+    <Card className="shadow-sm bg-white dark:bg-gray-800 border-0 transition h-100">
+      <CardBody className="d-flex flex-column">
+        <div className="mb-3">
+          <CardTitle tag="h5" className="text-dark dark:text-white">{project.name}</CardTitle>
+          <CardText className="text-muted dark:text-gray-300">
+            {project.language}
+          </CardText>
+          <CardText className="text-muted dark:text-gray-300">
+            {project.description}
+          </CardText>
+        </div>
+
+        {/* Botões grudados embaixo */}
+        <div className="mt-auto d-flex gap-3">
           <a href={project.github ?? undefined} target="_blank" rel="noopener noreferrer">
             <Button color="primary" size="sm">GitHub</Button>
           </a>
@@ -24,5 +31,6 @@ export const CardProjeto: React.FC<Project> =
         </div>
       </CardBody>
     </Card>
+
   )
 }

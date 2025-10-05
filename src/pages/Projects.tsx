@@ -14,14 +14,15 @@ export default function Projects() {
     <section id="projects" className="bg-white dark:bg-gray-900 transition">
       <Container>
         <h2 className="text-center fw-bold mb-5 text-dark dark:text-white">{t("header.projects")}</h2>
-        <Row>
+        <Row class="align-items-stretch">
           {repos.map(repo => (
             <Col md="4" className="mb-4" key='projectCard'>
               <CardProjeto
               name={repo.name}
-              description="Descricao do projeto"
+              description={repo.description ?? '...'}
               github={repo.html_url}
-              swagger=""/>
+              swagger=""
+              language={repo.language}/>
           </Col>
           ))}
         </Row>
