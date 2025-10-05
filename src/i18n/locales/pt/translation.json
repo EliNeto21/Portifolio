@@ -1,0 +1,20 @@
+{
+  "header": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "blog": "Blog",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Oi, eu sou o Eli 👋",
+    "subtitle": "Mineiro não vive só de pão de queijo não, uai… aqui a gente compila código também! ☕💻",
+    "button": "Ver Projetos"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou um desenvolvedor apaixonado por tecnologia, com experiência em React, Node.js e .NET. Gosto de transformar ideias em soluções criativas e aprender coisas novas sempre que possível."
+  },
+  "contact": {
+    "send": "Enviar"
+  }
+}

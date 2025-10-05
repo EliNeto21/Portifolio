@@ -1,0 +1,20 @@
+{
+  "header": {
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hi, I'm Eli 👋",
+    "subtitle": "I turn coffee into code ☕💻",
+    "button": "See Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a developer passionate about technology, with experience in React, Node.js and .NET. I like turning ideas into creative solutions and learning new things whenever possible."
+  },
+  "contact": {
+    "send": "Send"
+  }
+}

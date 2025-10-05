@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+html {
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* Força alinhamento e espaçamento uniforme */
+section {
+  @apply py-16;
+}
+
+/* Botões */
+.btn-primary {
+  @apply bg-blue-600 text-white border-none hover:bg-blue-700 transition;
+}
+
+.dark .btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600;
+}
+
+/* Cards */
+.card {
+  @apply shadow-sm rounded-lg transition;
+}
+
+.dark .card {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}

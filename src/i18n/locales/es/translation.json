@@ -1,0 +1,20 @@
+{
+  "header": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Hola, soy Eli 👋",
+    "subtitle": "Transformo café en código ☕💻",
+    "button": "Ver Proyectos"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador apasionado por la tecnología, con experiencia en React, Node.js y .NET. Me gusta convertir ideas en soluciones creativas y aprender cosas nuevas siempre que sea posible."
+  },
+  "contact": {
+    "send": "Enviar"
+  }
+}
